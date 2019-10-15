@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Scripts.TestScripts">
+        <methods>
+          <include name="createAccErr"/>
+          <include name="SignIn"/>
+          <include name="SigninErr"/>
+          <include name="viewCart"/>
+          <include name="createAccount"/>
+          <include name="placeOrder"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="contactUs"/>
+          <include name="mouseHoverWomen"/>
+          <include name="myOrder"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Scripts.TestScripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

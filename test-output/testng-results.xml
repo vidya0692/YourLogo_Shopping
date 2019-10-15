@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Addresses - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Element found was: [[ChromeDriver: chrome on XP (c1528b0dae5895cbdc7e336b5659484e)] -> xpath: //p[text()='There is 1 error']]]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Contact us - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Element found was: [[ChromeDriver: chrome on XP (6654d470a60cd505d236f168c7401bae)] -> xpath: //p[text()='Your message has been successfully sent to our team.']]]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Element found was: [[ChromeDriver: chrome on XP (05d2af702c6c0457ac131a0d18429959)] -> id: create_account_error]]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Blouses - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Blouse - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Order history - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Element found was: [[ChromeDriver: chrome on XP (205309a72ce2dfbd949bd916ee905e2e)] -> xpath: //strong[text()='Order Reference SYMJISROF -- placed on 10/08/2019']]]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Login - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My account - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: T-shirts - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Faded Short Sleeve T-shirts - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Order - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Order confirmation - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Search - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: T-shirts - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Evening Dresses - My Store]]>
+    </line>
+    <line>
+      <![CDATA[Page displayed is: Order - My Store]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="125513" started-at="2019-10-13T07:18:31Z" finished-at="2019-10-13T07:20:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="125513" started-at="2019-10-13T07:18:31Z" finished-at="2019-10-13T07:20:37Z">
+      <class name="Scripts.TestScripts">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="6297" started-at="2019-10-13T00:18:31Z" finished-at="2019-10-13T00:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="SignIn" duration-ms="6739" started-at="2019-10-13T00:18:38Z" finished-at="2019-10-13T00:18:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Addresses - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="119" started-at="2019-10-13T00:18:44Z" finished-at="2019-10-13T00:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5000" started-at="2019-10-13T00:18:45Z" finished-at="2019-10-13T00:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="SigninErr()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="SigninErr" duration-ms="2346" started-at="2019-10-13T00:18:50Z" finished-at="2019-10-13T00:18:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Element found was: [[ChromeDriver: chrome on XP (c1528b0dae5895cbdc7e336b5659484e)] -> xpath: //p[text()='There is 1 error']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SigninErr -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="51" started-at="2019-10-13T00:18:52Z" finished-at="2019-10-13T00:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="4978" started-at="2019-10-13T00:18:52Z" finished-at="2019-10-13T00:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="contactUs()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="contactUs" duration-ms="9822" started-at="2019-10-13T00:18:57Z" finished-at="2019-10-13T00:19:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Contact us - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Element found was: [[ChromeDriver: chrome on XP (6654d470a60cd505d236f168c7401bae)] -> xpath: //p[text()='Your message has been successfully sent to our team.']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="94" started-at="2019-10-13T00:19:07Z" finished-at="2019-10-13T00:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="4939" started-at="2019-10-13T00:19:07Z" finished-at="2019-10-13T00:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createAccErr()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="createAccErr" duration-ms="2453" started-at="2019-10-13T00:19:12Z" finished-at="2019-10-13T00:19:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Element found was: [[ChromeDriver: chrome on XP (05d2af702c6c0457ac131a0d18429959)] -> id: create_account_error]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccErr -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="2103" started-at="2019-10-13T00:19:14Z" finished-at="2019-10-13T00:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5216" started-at="2019-10-13T00:19:16Z" finished-at="2019-10-13T00:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="createAccount" duration-ms="7766" started-at="2019-10-13T00:19:22Z" finished-at="2019-10-13T00:19:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My account - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="2330" started-at="2019-10-13T00:19:29Z" finished-at="2019-10-13T00:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5020" started-at="2019-10-13T00:19:32Z" finished-at="2019-10-13T00:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mouseHoverWomen()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="mouseHoverWomen" duration-ms="2831" started-at="2019-10-13T00:19:37Z" finished-at="2019-10-13T00:19:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Blouses - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Blouse - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mouseHoverWomen -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="78" started-at="2019-10-13T00:19:40Z" finished-at="2019-10-13T00:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5089" started-at="2019-10-13T00:19:40Z" finished-at="2019-10-13T00:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="myOrder()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="myOrder" duration-ms="7689" started-at="2019-10-13T00:19:45Z" finished-at="2019-10-13T00:19:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Order history - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Element found was: [[ChromeDriver: chrome on XP (205309a72ce2dfbd949bd916ee905e2e)] -> xpath: //strong[text()='Order Reference SYMJISROF -- placed on 10/08/2019']]]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- myOrder -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="113" started-at="2019-10-13T00:19:52Z" finished-at="2019-10-13T00:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5265" started-at="2019-10-13T00:19:53Z" finished-at="2019-10-13T00:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="placeOrder" duration-ms="20843" started-at="2019-10-13T00:19:58Z" finished-at="2019-10-13T00:20:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Login - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My account - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: T-shirts - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Faded Short Sleeve T-shirts - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Order - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Order confirmation - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="84" started-at="2019-10-13T00:20:19Z" finished-at="2019-10-13T00:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="4995" started-at="2019-10-13T00:20:19Z" finished-at="2019-10-13T00:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="search()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="search" duration-ms="1902" started-at="2019-10-13T00:20:24Z" finished-at="2019-10-13T00:20:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: Search - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="80" started-at="2019-10-13T00:20:26Z" finished-at="2019-10-13T00:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="preCondition" is-config="true" duration-ms="5121" started-at="2019-10-13T00:20:26Z" finished-at="2019-10-13T00:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="viewCart()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="viewCart" duration-ms="6007" started-at="2019-10-13T00:20:31Z" finished-at="2019-10-13T00:20:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page displayed is: T-shirts - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Evening Dresses - My Store]]>
+            </line>
+            <line>
+              <![CDATA[Page displayed is: Order - My Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewCart -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.TestScripts@6eebc39e]" name="postCondition" is-config="true" duration-ms="68" started-at="2019-10-13T00:20:37Z" finished-at="2019-10-13T00:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 12 23:59:28 PDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138271 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scripts.TestScripts.SignIn()'><b>SignIn</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-702025003" onClick='toggleBox("Output-702025003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-702025003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-702025003">
+Page displayed is: Login - My Store<br/>
+Page displayed is: My account - My Store<br/>
+Page displayed is: Addresses - My Store<br/>
+Page displayed is: Login - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.SigninErr()'><b>SigninErr</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-172699023" onClick='toggleBox("Output-172699023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172699023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172699023">
+Page displayed is: Login - My Store<br/>
+Element found was: [[ChromeDriver: chrome on XP (1619580e2647cac8fea76bc17c3f8c5f)] -> xpath: //p[text()='There is 1 error']]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.contactUs()'><b>contactUs</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-1663488386" onClick='toggleBox("Output-1663488386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1663488386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1663488386">
+Page displayed is: Login - My Store<br/>
+Page displayed is: My account - My Store<br/>
+Page displayed is: Contact us - My Store<br/>
+Element found was: [[ChromeDriver: chrome on XP (4f671fec6787a10ff5fa0aa61651483a)] -> xpath: //p[text()='Your message has been successfully sent to our team.']]<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.createAccErr()'><b>createAccErr</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-49969897" onClick='toggleBox("Output-49969897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-49969897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-49969897">
+Page displayed is: Login - My Store<br/>
+Element found was: [[ChromeDriver: chrome on XP (7d49edf2107c76e13bec00383eb619ef)] -> id: create_account_error]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.createAccount()'><b>createAccount</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-861522296" onClick='toggleBox("Output-861522296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-861522296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-861522296">
+Page displayed is: Login - My Store<br/>
+<br/>
+<br/>
+Page displayed is: My account - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.mouseHoverWomen()'><b>mouseHoverWomen</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-1249337777" onClick='toggleBox("Output-1249337777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1249337777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1249337777">
+Page displayed is: Blouses - My Store<br/>
+Page displayed is: Blouse - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.myOrder()'><b>myOrder</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-770950500" onClick='toggleBox("Output-770950500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-770950500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-770950500">
+Page displayed is: Login - My Store<br/>
+Page displayed is: My account - My Store<br/>
+Page displayed is: Order history - My Store<br/>
+Element found was: [[ChromeDriver: chrome on XP (a98bdc32ccc130db3bc5247c18201b14)] -> xpath: //strong[text()='Order Reference SYMJISROF -- placed on 10/08/2019']]<br/>
+Page displayed is: Login - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.placeOrder()'><b>placeOrder</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-1053695609" onClick='toggleBox("Output-1053695609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1053695609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1053695609">
+Page displayed is: Login - My Store<br/>
+Page displayed is: My account - My Store<br/>
+Page displayed is: T-shirts - My Store<br/>
+Page displayed is: Faded Short Sleeve T-shirts - My Store<br/>
+Page displayed is: Order - My Store<br/>
+Page displayed is: My Store<br/>
+Page displayed is: Order confirmation - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.search()'><b>search</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-136011184" onClick='toggleBox("Output-136011184", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-136011184" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-136011184">
+Page displayed is: Search - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+<tr>
+<td title='Scripts.TestScripts.viewCart()'><b>viewCart</b><br>Test class: Scripts.TestScripts<br/>
+<a href="#Output-663119869" onClick='toggleBox("Output-663119869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-663119869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-663119869">
+Page displayed is: T-shirts - My Store<br/>
+Page displayed is: Evening Dresses - My Store<br/>
+Page displayed is: Order - My Store<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Scripts.TestScripts@6eebc39e</td></tr>
+</table><p>
+</body>
+</html>
